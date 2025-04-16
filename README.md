@@ -1,19 +1,31 @@
-# NC-cleaver
-This Shiny application allows you to generate and analyze the N-terminal and C-terminal fragments of a given protein sequence. The application calculates the molecular weight and isoelectric point (pI) for each fragment.
+# Protein Fragment Analyzer (Shiny App)
 
-# Using the Application Interface
-Input the Protein Sequence: Enter your protein sequence in the text input box labeled "Enter Protein Sequence".
-Generate Fragments: Click the "Generate Fragments" button to calculate and display the N-terminal and C-terminal fragments along with their molecular weights and pI values.
-Copy to Clipboard: Use the "Copy to Clipboard" button to copy the generated fragment data to your clipboard for easy use in other applications.
+A Shiny web application for analyzing protein sequences by generating all possible **N-terminal** and **C-terminal fragments**, along with their **monoisotopic mass** and **isoelectric point (pI)** values. This tool is useful for researchers and students working in **biochemistry**, **proteomics**, or **bioinformatics**.
 
-# Understanding the Output
-The application generates a table with the following columns:
-* N_Terminal_Fragment: The fragment of the protein starting from the N-terminal.
-* N_Terminal_Weight: The molecular weight of the N-terminal fragment.
-* N_Terminal_pI: The isoelectric point of the N-terminal fragment.
-* C_Terminal_Fragment: The fragment of the protein starting from the C-terminal.
-* C_Terminal_Weight: The molecular weight of the C-terminal fragment.
-* C_Terminal_pI: The isoelectric point of the C-terminal fragment.
+For use go to the following website: [N-C_Cleaver](https://loxmaxim.github.io/N-C_Cleaver/)
 
-# Additional Information
-The application uses predefined monoisotopic masses and pKa values for amino acids to perform calculations. These values ensure accurate results for molecular weight and pI. By following these steps, you can effectively use the Protein Sequence Fragment Generator to analyze protein sequences and obtain valuable insights into their fragment properties.
+---
+
+## 🚀 Features
+
+- 🔬 Calculates **monoisotopic masses** of each peptide fragment
+- 📈 Computes **isoelectric point (pI)** based on amino acid composition
+- 🧩 Generates all possible **N-terminal** and **C-terminal fragments**
+- 📋 **(Planned)** Clipboard export for easy data sharing
+- 💻 Interactive **Shiny interface**
+
+---
+
+## 🧪 Example
+
+**Input Sequence**: `MKWVTFISLLFLFSSAYSRGVFRR`
+
+The app will generate:
+
+| N-Terminal Fragment | Mass (Da) | pI | C-Terminal Fragment | Mass (Da) | pI |
+|---------------------|------------|-----|----------------------|------------|-----|
+| M | 131.04 | 9.64 | R | 156.10 | 12.48 |
+| MK | 259.13 | 9.89 | RR | 284.20 | 12.49 |
+| ... | ... | ... | ... | ... | ... |
+
+---
