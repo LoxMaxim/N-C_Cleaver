@@ -29,3 +29,16 @@ The app will generate:
 | ... | ... | ... | ... | ... | ... |
 
 ---
+
+## Used packages:
+ R Core Team (2023). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna,
+  Austria. URL https://www.R-project.org/.
+
+Chang W, Cheng J, Allaire J, Sievert C, Schloerke B, Xie Y, Allen J, McPherson J, Dipert A, Borges B (2024). _shiny: Web
+  Application Framework for R_. R package version 1.9.1, <https://CRAN.R-project.org/package=shiny>.
+
+Schloerke B, Chang W (2023). _shinylive: Run 'shiny' Applications in the Browser_. R package version 0.1.1,
+  <https://CRAN.R-project.org/package=shinylive>.
+
+Wickham H (2024). _httr2: Perform HTTP Requests and Process the Responses_. R package version 1.0.1,
+  <https://CRAN.R-project.org/package=httr2>.
